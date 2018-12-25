@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My first website</title>
+	<meta name="desctiption" content="Website about movie">
+	<meta name="keywords" content="films,serials,shows">
+	<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+	
+	<div class="main">
+		
+		<div class="header">
+			<div class="logo">
+				<div class="logotext">
+					<h1><a href="/">Moviemonster</a></h1>
+					<h2>Фільми-наша пристрасть!</h2>
+				</div>
+			</div>
+			
+			<div class="menubar">
+				<ul class="menu">
+					<li><a href="index.html">Головна</a></li>
+					<li><a href="show.html">Фільми</a></li>
+					<li><a href="#">Серіали</a></li>
+					<li class="selected"><a href="#">Рейтинг</a></li>
+					<li><a href="contact.html">Контакти</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="sitecontent">
+			
+			<div class="sidebarcontainer">
+				
+				<div class="sidebar">
+					<h2>Пошук</h2>
+					<form action="#" method="post" id="searchform">
+						<input type="search" name="searchfield" placeholder="Ваш запит">
+						<input type="submit" class="btn" value="Знайти">
+					</form>
+
+				</div>
+
+				<div class="sidebar">
+					<h2>Вхід</h2>
+					<form action="#" method="post" id="login">
+						<input type="text" name="loginfield" placeholder="Логін">
+						<input type="password" placeholder="Пароль" name="passwordfield">
+						<input type="submit" class="btn" value="Вхід">
+						<div class="pasregtext">
+							<span><a href="#">забули пароль</a></span> | <span><a href="#">реєстрація</a></span>
+						</div>
+					</form>
+				</div>
+				<div class="sidebar">
+					<h2>Новини</h2>
+					<span>11.12.2018</span>
+					<p>Ми зупустили розширений пошук</p>
+					<a href="#">Читати</a>
+
+				</div>
+				<div class="sidebar">
+					<h2>Рейтинг фільмів</h2>
+					<ul>
+						<li><a href="#">Месники</a><span class="ratingsidebar">9.9</span></li>
+						<li><a href="#">На драйві</a><span class="ratingsidebar">8.0</span></li>
+						<li><a href="#">Сам у дома</a><span class="ratingsidebar">7.8</span></li>
+						<li><a href="show.html">Веном</a><span class="ratingsidebar">9.5</span></li>
+					</ul>
+				</div>
+			</div>
+			<div class="content">
+				<table class="rating">
+					<tr>
+						<th></th>
+						<th>Фільми</th>
+						<th class="center">Рік</th>
+						<th class="center">Рейтинг</th>
+					</tr>
+					<tr>
+						<td class="center"> <img src="assets/img/venom.png"> </td>
+						<td>1.<a href="show.html">Веном</a></td>
+						<td class="center">2018</td>
+						<td class="center">8.1</td>
+					</tr>
+				</table>
+			</div>
+				
+		</div>
+		<div class="footer">
+			<p>
+				<a href="index.html">Головна</a> |
+				<a href="films.html">Фільми</a> |
+				<a href="#">Серіали</a> |
+				<a href="rating.html">Рейтинг</a> |
+				<a href="rating.html">Контакти</a> |
+			</p>
+			<p>wh-db.com</p>
+		</div>
+
+	</div>
+
+</body>
+</html>

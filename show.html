@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My first website</title>
+	<meta name="desctiption" content="Website about movie">
+	<meta name="keywords" content="films,serials,shows">
+	<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+	
+	<div class="main">
+		
+		<div class="header">
+			<div class="logo">
+				<div class="logotext">
+					<h1><a href="/">Moviemonster</a></h1>
+					<h2>Фільми-наша пристрасть!</h2>
+				</div>
+			</div>
+			
+			<div class="menubar">
+				<ul class="menu">
+					<li><a href="index.html">Головна</a></li>
+					<li><a href="#">Фільми</a></li>
+					<li><a href="#">Серіали</a></li>
+					<li><a href="rating.html">Рейтинг</a></li>
+					<li><a href="contact.html">Контакти</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="sitecontent">
+			
+			<div class="sidebarcontainer">
+				
+				<div class="sidebar">
+					<h2>Пошук</h2>
+					<form action="#" method="post" id="searchform">
+						<input type="search" name="searchfield" placeholder="Ваш запит">
+						<input type="submit" class="btn" value="Знайти">
+					</form>
+
+				</div>
+
+				<div class="sidebar">
+					<h2>Вхід</h2>
+					<form action="#" method="post" id="login">
+						<input type="text" name="loginfield" placeholder="Логін">
+						<input type="password" placeholder="Пароль" name="passwordfield">
+						<input type="submit" class="btn" value="Вхід">
+						<div class="pasregtext">
+							<span><a href="#">забули пароль</a></span> | <span><a href="#">реєстрація</a></span>
+						</div>
+					</form>
+				</div>
+				<div class="sidebar">
+					<h2>Новини</h2>
+					<span>11.12.2018</span>
+					<p>Ми зупустили розширений пошук</p>
+					<a href="#">Читати</a>
+
+				</div>
+				<div class="sidebar">
+					<h2>Рейтинг фільмів</h2>
+					<ul>
+						<li><a href="#">Месники</a><span class="ratingsidebar">9.9</span></li>
+						<li><a href="#">На драйві</a><span class="ratingsidebar">8.0</span></li>
+						<li><a href="#">Сам у дома</a><span class="ratingsidebar">7.8</span></li>
+						<li><a href="#">Веном</a><span class="ratingsidebar">9.5</span></li>
+					</ul>
+				</div>
+			</div>
+			<div class="content">
+				<h1>Веном</h1>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/wP1mL1xj6fo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<div class="infofilm">
+					<span class="label">рейтинг: </span><span class="value">9.5 / 10</span>
+					<span class="label">рік: </span><span class="value">2018</span>
+					<span class="label">режисер: </span><span class="value">Рубен Флейшер</span>
+				</div>
+				<hr>
+				<h2>Опис</h2>
+				<div class="filmopis">
+					<img src="assets/img/venom.png" idth="150" height="200" alt="">
+					Знімання фільму розпочалося 23 жовтня 2017 року у Нью-Йорку і Атланті, США[11]. У грудні Флейшер та Гарді заявили, що фільм «важливий для Всесвіту Marvel» і що він в основному ґрунтується на серії коміксів Venom: Lethal Protector та Planet of the Symbiotes. Гарді додав, що, як і колишній комікс, події фільму відбуватимуться у Сан-Франциско.
+
+
+				</div>
+				<hr>
+				<h2>Відгуки</h2>
+				<div class="reviews">
+					<div class="reviewname">
+						Сергій
+					</div>
+					<div class="reviewtext">
+						Фільм супер...
+					</div>
+					<div class="reviewname">
+						Павло
+					</div>
+					<div class="reviewtext">
+						Дурять людей! Перераховують суму поїздки після прибуття, сума виходить набагато дорожчя ніж у додатку.
+					</div>
+				</div>
+				<div class="send">
+					<form action="#" method="post" id="review">
+						<input type="text" placeholder="ваш імя" name="reviewname">
+						<textarea name="reviewtext" id=""></textarea>
+						<input type="submit" value="Відправити">
+					</form>
+				</div>
+			</div>
+		</div>
+				
+		</div>
+		<div class="footer">
+			<p>
+				<a href="index.html">Головна</a> |
+				<a href="films.html">Фільми</a> |
+				<a href="#">Серіали</a> |
+				<a href="rating.html">Рейтинг</a> |
+				<a href="contact.html">Контакти</a> |
+			</p>
+			<p>wh-db.com</p>
+		</div>
+
+	</div>
+
+</body>
+</html>
